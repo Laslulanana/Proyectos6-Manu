@@ -21,10 +21,17 @@ public class temporizador : MonoBehaviour
 
 
         tiempoS -=Time.deltaTime;
+
         if(tiempoS<=0)
         {
             tiempoM--;
-            tiempoS += 60;
+            tiempoS += 59;
+        }
+
+        if(tiempoS>=60)
+        {
+            tiempoM++;
+            tiempoS -=60;
         }
 
         string textoAparecer= "Temporizador " +tiempoM.ToString("f0")+" : "+ tiempoS.ToString("f0");
