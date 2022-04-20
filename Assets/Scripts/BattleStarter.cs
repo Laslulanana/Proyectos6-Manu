@@ -76,7 +76,7 @@ public class BattleStarter : MonoBehaviour
 
         BattleManager.instance.rewardItems = potentialBattles[selectedBattle].rewardItems;
         BattleManager.instance.rewardXP = potentialBattles[selectedBattle].rewardXP;
-        BattleManager.instance.rewardTime = potentialBattles[selectedBattle].rewardTiempo;
+        BattleManager.instance.rewardTiempo = potentialBattles[selectedBattle].rewardTiempo;
 
         yield return new WaitForSeconds(1.5f);
 
