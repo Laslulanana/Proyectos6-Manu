@@ -6181,7 +6181,7 @@ GameObject:
   - component: {fileID: 1419265850}
   - component: {fileID: 1419265849}
   m_Layer: 0
-  m_Name: MonstruoGordo
+  m_Name: Dragon Overworld
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6201,10 +6201,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   potentialBattles:
   - enemies:
-    - Gordo
-    - Verde
-    - Gordo
-    rewardXP: 3000
+    - Spider
+    - Spider
+    - Spider
+    - Spider
+    - Spider
+    rewardXP: 1000
     rewardItems:
     - Mana Potion
     - Iron Sword
@@ -6229,18 +6231,18 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.4712553, y: -0.22690082}
+  m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 5.24, y: 3.62}
+    oldSize: {x: 1.875, y: 1.5}
     newSize: {x: 4.125, y: 5.25}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 5.0675106, y: 3.9584117}
+  m_Size: {x: 4.125, y: 5.25}
   m_EdgeRadius: 0
 --- !u!212 &1419265851
 SpriteRenderer:
@@ -6282,7 +6284,7 @@ SpriteRenderer:
   m_SortingLayerID: 1277875085
   m_SortingLayer: 2
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: ea2820152b860ac47bec389a08872d47, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 988d560df8d322a468c97243cbfd76e8, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -6301,7 +6303,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1419265848}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 15.13, y: 2.64, z: 0}
+  m_LocalPosition: {x: 14.78, y: 1.25, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -14047,38 +14049,9 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 65618066947011825, guid: 3b1aa51cb5f9b7b499773b704d6f6427,
         type: 3}
-      propertyPath: enemyPrefabs.Array.size
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 65618066947011825, guid: 3b1aa51cb5f9b7b499773b704d6f6427,
-        type: 3}
       propertyPath: playerPrefabs.Array.size
       value: 3
       objectReference: {fileID: 0}
-    - target: {fileID: 65618066947011825, guid: 3b1aa51cb5f9b7b499773b704d6f6427,
-        type: 3}
-      propertyPath: enemyPrefabs.Array.data[4]
-      value: 
-      objectReference: {fileID: 2403192068799481476, guid: 554e8a047d820494ba52f0869526d6ce,
-        type: 3}
-    - target: {fileID: 65618066947011825, guid: 3b1aa51cb5f9b7b499773b704d6f6427,
-        type: 3}
-      propertyPath: enemyPrefabs.Array.data[5]
-      value: 
-      objectReference: {fileID: 2403192068799481476, guid: 0527587505abab743a3c2bebcd910fda,
-        type: 3}
-    - target: {fileID: 65618066947011825, guid: 3b1aa51cb5f9b7b499773b704d6f6427,
-        type: 3}
-      propertyPath: enemyPrefabs.Array.data[6]
-      value: 
-      objectReference: {fileID: 2403192068799481476, guid: 14bc76ed79f763c4fa088d2ab3d3417d,
-        type: 3}
-    - target: {fileID: 65618066947011825, guid: 3b1aa51cb5f9b7b499773b704d6f6427,
-        type: 3}
-      propertyPath: enemyPrefabs.Array.data[7]
-      value: 
-      objectReference: {fileID: 2403192068799481476, guid: 3ef010fc781d2384d9e4ed3e714cd37c,
-        type: 3}
     - target: {fileID: 65618066947011825, guid: 3b1aa51cb5f9b7b499773b704d6f6427,
         type: 3}
       propertyPath: playerPrefabs.Array.data[2]
