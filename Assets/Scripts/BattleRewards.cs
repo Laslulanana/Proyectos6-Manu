@@ -36,10 +36,15 @@ public class BattleRewards : MonoBehaviour
         xpEarned = xp;
         rewardItems = rewards;
         rewardT = Tempo;
+        Debug.Log("1");
+
 
         xpText.text = "Everyone earned " + xpEarned + " exp!";
         itemText.text = "";
-        tiempoText.text = "You gain " + rewardT + " ´!";
+        tiempoText.text = "You gain " + rewardT + " seconds!";
+
+        Tiempo.tiempo += rewardT;
+
 
         for (int i = 0; i < rewardItems.Length; i++)
         {
@@ -50,6 +55,8 @@ public class BattleRewards : MonoBehaviour
 
     public void CloseRewardScreen()
     {
+        
+
         for(int i = 0; i < GameManager.instance.playerStats.Length; i++)
         {
             if(GameManager.instance.playerStats[i].gameObject.activeInHierarchy)
