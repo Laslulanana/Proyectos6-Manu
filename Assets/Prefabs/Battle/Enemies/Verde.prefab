@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 8851206170071235873}
   - component: {fileID: 2403192068799481476}
   m_Layer: 0
-  m_Name: Gordo Verde
+  m_Name: Verde
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -99,7 +99,7 @@ MonoBehaviour:
   movesAvailable:
   - Slash
   - Plasma
-  charName: GordoVerde
+  charName: Verde
   currentHp: 240
   maxHP: 300
   currentMp: 0
