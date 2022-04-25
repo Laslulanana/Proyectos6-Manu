@@ -30,7 +30,7 @@ PrefabInstance:
     - target: {fileID: 8789389522713252515, guid: ddc5101d59df1594ba306bcf16efe3de,
         type: 3}
       propertyPath: lines.Array.size
-      value: 8
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 8789389522713252515, guid: ddc5101d59df1594ba306bcf16efe3de,
         type: 3}
