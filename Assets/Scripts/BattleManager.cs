@@ -47,6 +47,7 @@ public class BattleManager : MonoBehaviour
     public string gameOverScene;
 
     public int rewardXP;
+    public int rewardTiempo;
     public string[] rewardItems;
 
     public bool cannotFlee;
@@ -107,6 +108,7 @@ public class BattleManager : MonoBehaviour
                     {
                         if(playerPrefabs[j].charName == GameManager.instance.playerStats[i].charName)
                         {
+                            Debug.Log(playerPrefabs.Length);
                             BattleChar newPlayer = Instantiate(playerPrefabs[j], playerPositions[i].position, playerPositions[i].rotation);
                             newPlayer.transform.parent = playerPositions[i];
                             activeBattler.Add(newPlayer);
@@ -503,7 +505,7 @@ public class BattleManager : MonoBehaviour
             fleeing = false;
         }else
         {
-            BattleRewards.instance.OpenRewardScreen(rewardXP, rewardItems);
+            BattleRewards.instance.OpenRewardScreen(rewardXP, rewardItems,rewardTiempo);
         }
 
         AudioManager.instance.PlayBGM(FindObjectOfType<CameraController>().musicToPlay);
