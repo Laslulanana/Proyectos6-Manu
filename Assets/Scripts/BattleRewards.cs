@@ -46,6 +46,8 @@ public class BattleRewards : MonoBehaviour
         Tiempo.tiempo += rewardT;
 
 
+
+
         for (int i = 0; i < rewardItems.Length; i++)
         {
             itemText.text += rewards[i] + "\n";
@@ -79,5 +81,7 @@ public class BattleRewards : MonoBehaviour
         {
             QuestManager.instance.MarkQuestComplete(questToMark);
         }
+
+        SpawnMobs.combateActivo = true;
     }
 }
