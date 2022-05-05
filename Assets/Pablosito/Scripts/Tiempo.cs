@@ -10,10 +10,30 @@ public class Tiempo : MonoBehaviour
     public static float tiempoInicialA;
     public Text aTiempo;
 
+
+    public static bool espadaTiempo;
+    public static bool escudoTiempo;
+    public static bool botasTiempo;
+    public float tiempoEspada;
+    public float tiempoEscudo;
+    public float tiempoBotas;
     private void Awake()
     {
+        if (botasTiempo)        
+            Tiempo.tiempoInicialA += tiempoBotas;
+        
+        if (espadaTiempo)   
+            Tiempo.tiempoInicialA += tiempoEspada;
+        
+        if (escudoTiempo)
+            Tiempo.tiempoInicialA += tiempoEscudo;        
         tiempoInicialA = 100;
         tiempo = tiempoInicialA;
+    }
+
+    private void Start()
+    {
+        
     }
 
     void Update()
@@ -28,6 +48,6 @@ public class Tiempo : MonoBehaviour
 
     void Muerte()
     {
-        SceneManager.LoadScene("");
+        SceneManager.LoadScene("DerrotaN");
     }
 }

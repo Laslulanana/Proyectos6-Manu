@@ -4,12 +4,9 @@ using UnityEngine;
 
 public class EquipamientoTiempo : MonoBehaviour
 {
-    public bool espadaTiempo;
-    public bool escudoTiempo;
-    public bool botasTiempo;
-    public float tiempoEspada;
-    public float tiempoEscudo;
-    public float tiempoBotas;
+    public GameObject espada;
+    public GameObject escudo;
+    public GameObject botas;
     void Start()
     {
         
@@ -18,17 +15,18 @@ public class EquipamientoTiempo : MonoBehaviour
    
     void Update()
     {
-        if (botasTiempo)
+        if (Tiempo.espadaTiempo)
         {
-            Tiempo.tiempoInicialA += tiempoBotas;
+            espada.SetActive(false);
         }
-        if (espadaTiempo)
+        if (Tiempo.escudoTiempo)
         {
-            Tiempo.tiempoInicialA += tiempoEspada;
+            escudo.SetActive(false);
         }
-        if (escudoTiempo)
+        if (Tiempo.botasTiempo)
         {
-            Tiempo.tiempoInicialA += tiempoEscudo;
+            botas.SetActive(false);
         }
+
     }
 }
