@@ -6,11 +6,12 @@ public class BattleRewards : MonoBehaviour
 {
     public static BattleRewards instance;
 
-    public Text xpText, itemText;
+    public Text xpText, itemText,tiempoText;
     public GameObject rewardScreen;
 
     public string[] rewardItems;
     public int xpEarned;
+    public int rewardT;
 
     public bool markQuestComplete;
     public string questToMark;
@@ -26,19 +27,28 @@ public class BattleRewards : MonoBehaviour
     {
         if(Input.GetKeyDown(KeyCode.Y))
         {
-             OpenRewardScreen(54 , new string[] { "Iron Sword", "Iron Armor"});
+             OpenRewardScreen(54 , new string[] { "Iron Sword", "Iron Armor"},10);
         }
     }
 
-    public void OpenRewardScreen(int xp, string[] rewards)
+    public void OpenRewardScreen(int xp, string[] rewards,int Tempo)
     {
         xpEarned = xp;
         rewardItems = rewards;
+        rewardT = Tempo;
+        Debug.Log("1");
+
 
         xpText.text = "Everyone earned " + xpEarned + " exp!";
         itemText.text = "";
+        tiempoText.text = "You gain " + rewardT + " seconds!";
 
-        for(int i = 0; i < rewardItems.Length; i++)
+        Tiempo.tiempo += rewardT;
+
+
+
+
+        for (int i = 0; i < rewardItems.Length; i++)
         {
             itemText.text += rewards[i] + "\n";
         }
@@ -47,11 +57,15 @@ public class BattleRewards : MonoBehaviour
 
     public void CloseRewardScreen()
     {
+        
+
         for(int i = 0; i < GameManager.instance.playerStats.Length; i++)
         {
             if(GameManager.instance.playerStats[i].gameObject.activeInHierarchy)
             {
                 GameManager.instance.playerStats[i].AddExp(xpEarned);
+                
+
             }
         }
 
@@ -67,5 +81,7 @@ public class BattleRewards : MonoBehaviour
         {
             QuestManager.instance.MarkQuestComplete(questToMark);
         }
+
+        SpawnMobs.combateActivo = true;
     }
 }

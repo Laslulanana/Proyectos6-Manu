@@ -47,6 +47,7 @@ public class BattleManager : MonoBehaviour
     public string gameOverScene;
 
     public int rewardXP;
+    public int rewardTiempo;
     public string[] rewardItems;
 
     public bool cannotFlee;
@@ -504,7 +505,7 @@ public class BattleManager : MonoBehaviour
             fleeing = false;
         }else
         {
-            BattleRewards.instance.OpenRewardScreen(rewardXP, rewardItems);
+            BattleRewards.instance.OpenRewardScreen(rewardXP, rewardItems,rewardTiempo);
         }
 
         AudioManager.instance.PlayBGM(FindObjectOfType<CameraController>().musicToPlay);
