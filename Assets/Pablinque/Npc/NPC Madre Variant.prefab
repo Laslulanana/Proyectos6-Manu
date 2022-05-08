@@ -1,0 +1,164 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &3559724705842336932
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6658762659883697076, guid: 60b4b0d7fcccf6c419123dd32228dc13,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6658762659883697076, guid: 60b4b0d7fcccf6c419123dd32228dc13,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 40.850662
+      objectReference: {fileID: 0}
+    - target: {fileID: 6658762659883697076, guid: 60b4b0d7fcccf6c419123dd32228dc13,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 14.270521
+      objectReference: {fileID: 0}
+    - target: {fileID: 6658762659883697076, guid: 60b4b0d7fcccf6c419123dd32228dc13,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 415.67188
+      objectReference: {fileID: 0}
+    - target: {fileID: 6658762659883697076, guid: 60b4b0d7fcccf6c419123dd32228dc13,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6658762659883697076, guid: 60b4b0d7fcccf6c419123dd32228dc13,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6658762659883697076, guid: 60b4b0d7fcccf6c419123dd32228dc13,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6658762659883697076, guid: 60b4b0d7fcccf6c419123dd32228dc13,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6658762659883697076, guid: 60b4b0d7fcccf6c419123dd32228dc13,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6658762659883697076, guid: 60b4b0d7fcccf6c419123dd32228dc13,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6658762659883697076, guid: 60b4b0d7fcccf6c419123dd32228dc13,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6658762659883697078, guid: 60b4b0d7fcccf6c419123dd32228dc13,
+        type: 3}
+      propertyPath: m_Name
+      value: NPC Madre Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 6658762659883697083, guid: 60b4b0d7fcccf6c419123dd32228dc13,
+        type: 3}
+      propertyPath: questToMark
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6658762659883697083, guid: 60b4b0d7fcccf6c419123dd32228dc13,
+        type: 3}
+      propertyPath: markComplete
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6658762659883697083, guid: 60b4b0d7fcccf6c419123dd32228dc13,
+        type: 3}
+      propertyPath: lines.Array.size
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 6658762659883697083, guid: 60b4b0d7fcccf6c419123dd32228dc13,
+        type: 3}
+      propertyPath: shouldActiveQuest
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6658762659883697083, guid: 60b4b0d7fcccf6c419123dd32228dc13,
+        type: 3}
+      propertyPath: lines.Array.data[1]
+      value: "\xA1Pero donde has estado hijo! "
+      objectReference: {fileID: 0}
+    - target: {fileID: 6658762659883697083, guid: 60b4b0d7fcccf6c419123dd32228dc13,
+        type: 3}
+      propertyPath: lines.Array.data[2]
+      value: "El mundo est\xE1 a punto de acabarse queda muy poco para que todo se
+        destruya. "
+      objectReference: {fileID: 0}
+    - target: {fileID: 6658762659883697083, guid: 60b4b0d7fcccf6c419123dd32228dc13,
+        type: 3}
+      propertyPath: lines.Array.data[3]
+      value: "Y t\xFA ah\xED durmiendo, todo el d\xEDa en la cama, sin hacer nada,
+        ya pareces un jabal\xED."
+      objectReference: {fileID: 0}
+    - target: {fileID: 6658762659883697083, guid: 60b4b0d7fcccf6c419123dd32228dc13,
+        type: 3}
+      propertyPath: lines.Array.data[4]
+      value: Aaaaaay que va a ser de nosotros, el mago merlin ha ido a intentar detener
+        al malvado brujo.
+      objectReference: {fileID: 0}
+    - target: {fileID: 6658762659883697083, guid: 60b4b0d7fcccf6c419123dd32228dc13,
+        type: 3}
+      propertyPath: lines.Array.data[5]
+      value: 'Pero no ha sido capaz, el brujo y sus secuaces son demasiados poderosos
+        para un solo hombre. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 6658762659883697083, guid: 60b4b0d7fcccf6c419123dd32228dc13,
+        type: 3}
+      propertyPath: lines.Array.data[6]
+      value: "Pero antes de que lo matasen dijo algo sobre un h\xE9roe elegido que
+        esta destinado a ganarles y no se qu\xE9 de una leyenda."
+      objectReference: {fileID: 0}
+    - target: {fileID: 6658762659883697083, guid: 60b4b0d7fcccf6c419123dd32228dc13,
+        type: 3}
+      propertyPath: lines.Array.data[7]
+      value: "Aaaaaay de nosotros, donde estar\xE1 ese h\xE9roe, con el poco tiempo
+        que nos queda y nadie para salvarnos."
+      objectReference: {fileID: 0}
+    - target: {fileID: 6658762659883697083, guid: 60b4b0d7fcccf6c419123dd32228dc13,
+        type: 3}
+      propertyPath: lines.Array.data[8]
+      value: "Hijo, ni se te ocurra salir del pueblo, que es muy peligroso y no quiero
+        m\xE1s disgustos."
+      objectReference: {fileID: 0}
+    - target: {fileID: 6658762659883697083, guid: 60b4b0d7fcccf6c419123dd32228dc13,
+        type: 3}
+      propertyPath: lines.Array.data[9]
+      value: "Y acu\xE9rdate que ma\xF1ana hemos quedado con la loli para ir a comprar."
+      objectReference: {fileID: 0}
+    - target: {fileID: 6658762659883697083, guid: 60b4b0d7fcccf6c419123dd32228dc13,
+        type: 3}
+      propertyPath: lines.Array.data[10]
+      value: "Y si puedes ir a recoger las pociones que encargamos me har\xEDas un
+        favor."
+      objectReference: {fileID: 0}
+    - target: {fileID: 6658762659883697083, guid: 60b4b0d7fcccf6c419123dd32228dc13,
+        type: 3}
+      propertyPath: lines.Array.data[11]
+      value: "Acu\xE9rdate de cogerte el bocata que te he dejado preparado."
+      objectReference: {fileID: 0}
+    - target: {fileID: 6658762659883697083, guid: 60b4b0d7fcccf6c419123dd32228dc13,
+        type: 3}
+      propertyPath: lines.Array.data[12]
+      value: "\xBFHas cogido la bufanda? Que luego seguro que refresca ni\xF1o."
+      objectReference: {fileID: 0}
+    - target: {fileID: 6658762659883697083, guid: 60b4b0d7fcccf6c419123dd32228dc13,
+        type: 3}
+      propertyPath: lines.Array.data[13]
+      value: No vuelvas tarde, que luego no nos da tiempo para hacer nada juntos.
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 60b4b0d7fcccf6c419123dd32228dc13, type: 3}

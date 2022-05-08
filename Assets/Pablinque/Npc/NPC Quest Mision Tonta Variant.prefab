@@ -1,0 +1,154 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &8557719120353186075
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6658762659883697076, guid: 60b4b0d7fcccf6c419123dd32228dc13,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6658762659883697076, guid: 60b4b0d7fcccf6c419123dd32228dc13,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 10.702252
+      objectReference: {fileID: 0}
+    - target: {fileID: 6658762659883697076, guid: 60b4b0d7fcccf6c419123dd32228dc13,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 14.034939
+      objectReference: {fileID: 0}
+    - target: {fileID: 6658762659883697076, guid: 60b4b0d7fcccf6c419123dd32228dc13,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 415.67188
+      objectReference: {fileID: 0}
+    - target: {fileID: 6658762659883697076, guid: 60b4b0d7fcccf6c419123dd32228dc13,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6658762659883697076, guid: 60b4b0d7fcccf6c419123dd32228dc13,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6658762659883697076, guid: 60b4b0d7fcccf6c419123dd32228dc13,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6658762659883697076, guid: 60b4b0d7fcccf6c419123dd32228dc13,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6658762659883697076, guid: 60b4b0d7fcccf6c419123dd32228dc13,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6658762659883697076, guid: 60b4b0d7fcccf6c419123dd32228dc13,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6658762659883697076, guid: 60b4b0d7fcccf6c419123dd32228dc13,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6658762659883697077, guid: 60b4b0d7fcccf6c419123dd32228dc13,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 8587325110074014063, guid: c150384d8477b4d4cb95609414682aee,
+        type: 3}
+    - target: {fileID: 6658762659883697078, guid: 60b4b0d7fcccf6c419123dd32228dc13,
+        type: 3}
+      propertyPath: m_Name
+      value: NPC Quest Mision Tonta Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 6658762659883697081, guid: 60b4b0d7fcccf6c419123dd32228dc13,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 1.15
+      objectReference: {fileID: 0}
+    - target: {fileID: 6658762659883697082, guid: 60b4b0d7fcccf6c419123dd32228dc13,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 1.15
+      objectReference: {fileID: 0}
+    - target: {fileID: 6658762659883697083, guid: 60b4b0d7fcccf6c419123dd32228dc13,
+        type: 3}
+      propertyPath: questToMark
+      value: Recuperar Gatete
+      objectReference: {fileID: 0}
+    - target: {fileID: 6658762659883697083, guid: 60b4b0d7fcccf6c419123dd32228dc13,
+        type: 3}
+      propertyPath: markComplete
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6658762659883697083, guid: 60b4b0d7fcccf6c419123dd32228dc13,
+        type: 3}
+      propertyPath: lines.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6658762659883697083, guid: 60b4b0d7fcccf6c419123dd32228dc13,
+        type: 3}
+      propertyPath: lines.Array.data[0]
+      value: "n-Ni\xF1o lloron"
+      objectReference: {fileID: 0}
+    - target: {fileID: 6658762659883697083, guid: 60b4b0d7fcccf6c419123dd32228dc13,
+        type: 3}
+      propertyPath: lines.Array.data[1]
+      value: Mi gato se ha perdidoooooo. Lo he buscado por todo el pueblo, pero he
+        visto un goblin y me ha dado mucho miedo.
+      objectReference: {fileID: 0}
+    - target: {fileID: 6658762659883697083, guid: 60b4b0d7fcccf6c419123dd32228dc13,
+        type: 3}
+      propertyPath: lines.Array.data[2]
+      value: Quiero encontrar a mi Oreo, seguro que esta el pobre aterrado y no sabe
+        que hacer
+      objectReference: {fileID: 0}
+    - target: {fileID: 6658762659883697083, guid: 60b4b0d7fcccf6c419123dd32228dc13,
+        type: 3}
+      propertyPath: lines.Array.data[3]
+      value: "\xBFMe puedes ayudar a encontrarlo porfa?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 6658762659883697083, guid: 60b4b0d7fcccf6c419123dd32228dc13,
+        type: 3}
+      propertyPath: lines.Array.data[4]
+      value: Bueno venga, que se te van las vitaminas del zumo que acabo de exprimir.
+      objectReference: {fileID: 0}
+    - target: {fileID: 6658762659883697083, guid: 60b4b0d7fcccf6c419123dd32228dc13,
+        type: 3}
+      propertyPath: lines.Array.data[5]
+      value: Bueno venga, que se te van las vitaminas del zumo que acabo de exprimir.
+      objectReference: {fileID: 0}
+    - target: {fileID: 6658762659883697083, guid: 60b4b0d7fcccf6c419123dd32228dc13,
+        type: 3}
+      propertyPath: lines.Array.data[6]
+      value: Bueno venga, que se te van las vitaminas del zumo que acabo de exprimir.
+      objectReference: {fileID: 0}
+    - target: {fileID: 6658762659883697083, guid: 60b4b0d7fcccf6c419123dd32228dc13,
+        type: 3}
+      propertyPath: lines.Array.data[7]
+      value: Bueno venga, que se te van las vitaminas del zumo que acabo de exprimir.
+      objectReference: {fileID: 0}
+    - target: {fileID: 6658762659883697083, guid: 60b4b0d7fcccf6c419123dd32228dc13,
+        type: 3}
+      propertyPath: lines.Array.data[8]
+      value: Bueno venga, que se te van las vitaminas del zumo que acabo de exprimir.
+      objectReference: {fileID: 0}
+    - target: {fileID: 6658762659883697083, guid: 60b4b0d7fcccf6c419123dd32228dc13,
+        type: 3}
+      propertyPath: lines.Array.data[9]
+      value: Bueno venga, que se te van las vitaminas del zumo que acabo de exprimir.
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 60b4b0d7fcccf6c419123dd32228dc13, type: 3}

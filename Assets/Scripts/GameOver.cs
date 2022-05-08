@@ -1,4 +1,4 @@
-﻿using System.Collections;
+﻿ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -25,14 +25,18 @@ public class GameOver : MonoBehaviour
 
     public void QuitToMain()
     {
+        Debug.Log("pulsapo");
+        SceneManager.LoadScene("MainMenu");
+        /*
         Destroy(GameManager.instance.gameObject);
         Destroy(PlayerController.instance.gameObject);
         Destroy(GameMenu.instance.gameObject);
         Destroy(AudioManager.instance.gameObject);
         Destroy(BattleManager.instance.gameObject);
+        */
 
 
-        SceneManager.LoadScene(mainMenuScene);
+        
     }
 
     public void LoadLastSave()

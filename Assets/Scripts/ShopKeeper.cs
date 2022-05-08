@@ -15,7 +15,7 @@ public class ShopKeeper : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(canOpen && Input.GetButtonDown("Fire1") && PlayerController.instance.canMove && !Shop.instance.shopMenu.activeInHierarchy)
+        if(canOpen && Input.GetKeyDown(KeyCode.E) && PlayerController.instance.canMove && !Shop.instance.shopMenu.activeInHierarchy)
         {
             Shop.instance.itemsForSale = itemsForSale;
 
