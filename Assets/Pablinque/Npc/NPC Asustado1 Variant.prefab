@@ -1,0 +1,129 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &673637286290223130
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1449276938259025344, guid: d03ee0cde19fa794a90602e432419591,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 1.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1449276938259025346, guid: d03ee0cde19fa794a90602e432419591,
+        type: 3}
+      propertyPath: questToMark
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1449276938259025346, guid: d03ee0cde19fa794a90602e432419591,
+        type: 3}
+      propertyPath: markComplete
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1449276938259025346, guid: d03ee0cde19fa794a90602e432419591,
+        type: 3}
+      propertyPath: lines.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1449276938259025346, guid: d03ee0cde19fa794a90602e432419591,
+        type: 3}
+      propertyPath: shouldActiveQuest
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1449276938259025346, guid: d03ee0cde19fa794a90602e432419591,
+        type: 3}
+      propertyPath: lines.Array.data[0]
+      value: n-Pablo
+      objectReference: {fileID: 0}
+    - target: {fileID: 1449276938259025346, guid: d03ee0cde19fa794a90602e432419591,
+        type: 3}
+      propertyPath: lines.Array.data[1]
+      value: "Dios \xBFQu\xE9 vamos a hacer? Estamos perdidos, no queda nada ni nadie
+        que nos pueda salvar \xA1La muerte viene a por nosotros!"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1449276938259025346, guid: d03ee0cde19fa794a90602e432419591,
+        type: 3}
+      propertyPath: lines.Array.data[2]
+      value: "No queda nada ni nadie de ese pueblo, \xEDbamos a morir igualmente,
+        pero prefieren entretenerse con nosotros antes de aplastarnos "
+      objectReference: {fileID: 0}
+    - target: {fileID: 1449276938259025346, guid: d03ee0cde19fa794a90602e432419591,
+        type: 3}
+      propertyPath: lines.Array.data[3]
+      value: "\xA1Vamos a morir todos!"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1449276938259025347, guid: d03ee0cde19fa794a90602e432419591,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 1.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1449276938259025356, guid: d03ee0cde19fa794a90602e432419591,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 7429271160772291088, guid: 741c51615dc3cf0408a77c2a06aa5598,
+        type: 3}
+    - target: {fileID: 1449276938259025357, guid: d03ee0cde19fa794a90602e432419591,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1449276938259025357, guid: d03ee0cde19fa794a90602e432419591,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 9.053545
+      objectReference: {fileID: 0}
+    - target: {fileID: 1449276938259025357, guid: d03ee0cde19fa794a90602e432419591,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 10.26644
+      objectReference: {fileID: 0}
+    - target: {fileID: 1449276938259025357, guid: d03ee0cde19fa794a90602e432419591,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 415.67188
+      objectReference: {fileID: 0}
+    - target: {fileID: 1449276938259025357, guid: d03ee0cde19fa794a90602e432419591,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1449276938259025357, guid: d03ee0cde19fa794a90602e432419591,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1449276938259025357, guid: d03ee0cde19fa794a90602e432419591,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1449276938259025357, guid: d03ee0cde19fa794a90602e432419591,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1449276938259025357, guid: d03ee0cde19fa794a90602e432419591,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1449276938259025357, guid: d03ee0cde19fa794a90602e432419591,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1449276938259025357, guid: d03ee0cde19fa794a90602e432419591,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1449276938259025359, guid: d03ee0cde19fa794a90602e432419591,
+        type: 3}
+      propertyPath: m_Name
+      value: NPC Asustado1 Variant
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d03ee0cde19fa794a90602e432419591, type: 3}
