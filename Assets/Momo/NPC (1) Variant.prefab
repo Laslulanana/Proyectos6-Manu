@@ -60,7 +60,7 @@ PrefabInstance:
     - target: {fileID: 8789389522713252515, guid: ddc5101d59df1594ba306bcf16efe3de,
         type: 3}
       propertyPath: lines.Array.data[2]
-      value: n-Paco
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 8789389522713252515, guid: ddc5101d59df1594ba306bcf16efe3de,
         type: 3}
@@ -70,7 +70,7 @@ PrefabInstance:
     - target: {fileID: 8789389522713252515, guid: ddc5101d59df1594ba306bcf16efe3de,
         type: 3}
       propertyPath: lines.Array.data[4]
-      value: n-Paco
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 8789389522713252515, guid: ddc5101d59df1594ba306bcf16efe3de,
         type: 3}
@@ -85,7 +85,7 @@ PrefabInstance:
     - target: {fileID: 8789389522713252515, guid: ddc5101d59df1594ba306bcf16efe3de,
         type: 3}
       propertyPath: lines.Array.data[7]
-      value: n-Paco
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 8789389522713252515, guid: ddc5101d59df1594ba306bcf16efe3de,
         type: 3}

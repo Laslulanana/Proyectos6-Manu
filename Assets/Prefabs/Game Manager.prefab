@@ -180,12 +180,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   questMarkerName:
-  - 
-  - fight the demon
-  - enter the cave
-  - quest test
-  - save the world
-  - do something
+  - Acabar con los goblins
+  - Pociones Madre
+  - Recuperar Gatete
   questMarkersComplete: 
 --- !u!1 &4526142720941608778
 GameObject:

@@ -1,0 +1,136 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &7849788842072247202
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6658762659883697076, guid: 60b4b0d7fcccf6c419123dd32228dc13,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6658762659883697076, guid: 60b4b0d7fcccf6c419123dd32228dc13,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 9.053545
+      objectReference: {fileID: 0}
+    - target: {fileID: 6658762659883697076, guid: 60b4b0d7fcccf6c419123dd32228dc13,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 10.26644
+      objectReference: {fileID: 0}
+    - target: {fileID: 6658762659883697076, guid: 60b4b0d7fcccf6c419123dd32228dc13,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 415.67188
+      objectReference: {fileID: 0}
+    - target: {fileID: 6658762659883697076, guid: 60b4b0d7fcccf6c419123dd32228dc13,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6658762659883697076, guid: 60b4b0d7fcccf6c419123dd32228dc13,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6658762659883697076, guid: 60b4b0d7fcccf6c419123dd32228dc13,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6658762659883697076, guid: 60b4b0d7fcccf6c419123dd32228dc13,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6658762659883697076, guid: 60b4b0d7fcccf6c419123dd32228dc13,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6658762659883697076, guid: 60b4b0d7fcccf6c419123dd32228dc13,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6658762659883697076, guid: 60b4b0d7fcccf6c419123dd32228dc13,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6658762659883697077, guid: 60b4b0d7fcccf6c419123dd32228dc13,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 5311313197122370693, guid: d3754f0b3e5fb4f4daae91b5d0f308cf,
+        type: 3}
+    - target: {fileID: 6658762659883697078, guid: 60b4b0d7fcccf6c419123dd32228dc13,
+        type: 3}
+      propertyPath: m_Name
+      value: NPC Contar contexto Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 6658762659883697081, guid: 60b4b0d7fcccf6c419123dd32228dc13,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 1.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6658762659883697082, guid: 60b4b0d7fcccf6c419123dd32228dc13,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 1.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6658762659883697083, guid: 60b4b0d7fcccf6c419123dd32228dc13,
+        type: 3}
+      propertyPath: questToMark
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6658762659883697083, guid: 60b4b0d7fcccf6c419123dd32228dc13,
+        type: 3}
+      propertyPath: markComplete
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6658762659883697083, guid: 60b4b0d7fcccf6c419123dd32228dc13,
+        type: 3}
+      propertyPath: lines.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6658762659883697083, guid: 60b4b0d7fcccf6c419123dd32228dc13,
+        type: 3}
+      propertyPath: shouldActiveQuest
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6658762659883697083, guid: 60b4b0d7fcccf6c419123dd32228dc13,
+        type: 3}
+      propertyPath: lines.Array.data[0]
+      value: n-Paco
+      objectReference: {fileID: 0}
+    - target: {fileID: 6658762659883697083, guid: 60b4b0d7fcccf6c419123dd32228dc13,
+        type: 3}
+      propertyPath: lines.Array.data[1]
+      value: "\xA1Estamos perdidos! Todos los reinos han caido, el castillo imperial
+        es ahora del brujo."
+      objectReference: {fileID: 0}
+    - target: {fileID: 6658762659883697083, guid: 60b4b0d7fcccf6c419123dd32228dc13,
+        type: 3}
+      propertyPath: lines.Array.data[2]
+      value: "El reino de los enanos fue el primero en caer, ya no queda cueva en
+        la monta\xF1a que no sea suya."
+      objectReference: {fileID: 0}
+    - target: {fileID: 6658762659883697083, guid: 60b4b0d7fcccf6c419123dd32228dc13,
+        type: 3}
+      propertyPath: lines.Array.data[3]
+      value: Los bosques de los elfos ya son historia, son todos prisioneros y obligados
+        a cortar sus propios bosques.
+      objectReference: {fileID: 0}
+    - target: {fileID: 6658762659883697083, guid: 60b4b0d7fcccf6c419123dd32228dc13,
+        type: 3}
+      propertyPath: lines.Array.data[4]
+      value: "El castillo es una sombra de lo que era, ahora controlado por el brujo
+        todo apunta hacia nuestra destrucci\xF3n"
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 60b4b0d7fcccf6c419123dd32228dc13, type: 3}
