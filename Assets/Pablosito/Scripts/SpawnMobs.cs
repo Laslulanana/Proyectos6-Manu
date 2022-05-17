@@ -8,6 +8,8 @@ public class SpawnMobs : MonoBehaviour
     float timer;
     float random;
     public int probabilidad;
+    float contadorMovimiento;
+  
 
     BattleStarter battleStarter;
 
@@ -26,39 +28,50 @@ public class SpawnMobs : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (combateActivo)
+        if (PlayerController.isMoving)
         {
-            prueba = true;
-
+            contadorMovimiento += Time.deltaTime;
         }
         else
+            contadorMovimiento = 0;
+        
+        
+        
+        
+       if (contadorMovimiento>=3)
         {
-            prueba = false; 
-        }
-
-        if (MobsActivo && !combateActivo)
-        {
-            timer += Time.deltaTime;
-
-            if(timer >=1)
+            if (MobsActivo && !combateActivo)
             {
-                random = Random.Range(0, 10);
+                timer += Time.deltaTime;
 
-                if(random >= probabilidad)
+                if (timer >= 1)
                 {
-                    Combate();
-                }else if(random <= probabilidad)
-                {
-                    timer = 0;
+                    random = Random.Range(0, 10);
+
+                    if (random >= probabilidad)
+                    {
+                        Combate();
+                    }
+                    else if (random <= probabilidad)
+                    {
+                        timer = 0;
+                    }
                 }
             }
         }
+
+        
     }
 
     void Combate()
     {
-        combateActivo = true;
-        StartCoroutine(battleStarter.StartBattleCo());
+        
+        
+            combateActivo = true;
+            StartCoroutine(battleStarter.StartBattleCo());
+        contadorMovimiento = 0;
+        
+        
 
     }
     private void OnTriggerEnter2D(Collider2D collision)
