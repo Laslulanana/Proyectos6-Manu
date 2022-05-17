@@ -123,6 +123,7 @@ public class GameMenu : MonoBehaviour
             statusButtons[i].GetComponentInChildren<Text>().text = playerStats[i].charName;
         }
     }
+   
 
     public void StatusChar(int selected) 
     {

@@ -11,16 +11,22 @@ public class Tiempo : MonoBehaviour
     public Text aTiempo;
     public float tiempoI;
 
+    public static bool espadaTiempo;
+    public static bool escudoTiempo;
+    public static bool botasTiempo;
+
     private void Awake()
     {
-        tiempoInicialA = 2;
+        tiempoInicialA = 10;
         tiempo = tiempoInicialA;
     }
 
     void Update()
     {
+
         tiempoI = tiempo;
         tiempo -= Time.deltaTime;
+        
         if(tiempo<=0)
         {
             Debug.Log("si");

@@ -491,7 +491,7 @@ public class BattleManager : MonoBehaviour
                 }
             }
 
-            Destroy(gameObject);
+           // Destroy(gameObject);
         }
 
         UIFade.instance.FadeFromBlack();
