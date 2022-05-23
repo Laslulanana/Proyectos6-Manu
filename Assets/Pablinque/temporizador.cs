@@ -34,7 +34,7 @@ public class temporizador : MonoBehaviour
             tiempoS -=60;
         }
 
-        string textoAparecer= "Temporizador " +tiempoM.ToString("f0")+" : "+ tiempoS.ToString("f0");
+        string textoAparecer= tiempoM.ToString("f0")+" : "+ tiempoS.ToString("f0");
         tiempoText.text = textoAparecer;
     }
 }

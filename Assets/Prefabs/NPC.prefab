@@ -162,5 +162,5 @@ MonoBehaviour:
   - I will find them now.
   isPerson: 1
   shouldActiveQuest: 1
-  questToMark: quest test
+  questToMark: fight the demon
   markComplete: 1
