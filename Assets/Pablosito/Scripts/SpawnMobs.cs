@@ -12,18 +12,31 @@ public class SpawnMobs : MonoBehaviour
     BattleStarter battleStarter;
 
     public static bool combateActivo;
+
+    public bool prueba;
     void Start()
     {
+        combateActivo = false;
         timer = 0f;
 
-        battleStarter =this.GetComponent<BattleStarter>(); 
+        battleStarter =  this.GetComponent<BattleStarter>(); 
 
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (MobsActivo && combateActivo)
+        if (combateActivo)
+        {
+            prueba = true;
+
+        }
+        else
+        {
+            prueba = false; 
+        }
+
+        if (MobsActivo && !combateActivo)
         {
             timer += Time.deltaTime;
 
@@ -44,7 +57,7 @@ public class SpawnMobs : MonoBehaviour
 
     void Combate()
     {
-        combateActivo = false;
+        combateActivo = true;
         StartCoroutine(battleStarter.StartBattleCo());
 
     }
