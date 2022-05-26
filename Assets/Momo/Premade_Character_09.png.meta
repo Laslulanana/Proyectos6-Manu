@@ -5,6 +5,9 @@ TextureImporter:
   - first:
       213: 5311313197122370693
     second: NPC_4
+  - first:
+      213: 7884552903580140644
+    second: Premade_Character_09_1
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -110,6 +113,27 @@ TextureImporter:
       bones: []
       spriteID: 58cb255563395b940800000000000000
       internalID: 5311313197122370693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_09_1
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 592
+        width: 13
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4644ba6771f8b6d60800000000000000
+      internalID: 7884552903580140644
       vertices: []
       indices: 
       edges: []
