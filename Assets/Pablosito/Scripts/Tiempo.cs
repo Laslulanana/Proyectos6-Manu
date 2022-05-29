@@ -8,6 +8,7 @@ public class Tiempo : MonoBehaviour
 {
     public static float tiempo;
     public static float tiempoInicialA;
+    
     public Text aTiempo;
     public float tiempoI;
 
@@ -17,7 +18,7 @@ public class Tiempo : MonoBehaviour
 
     private void Awake()
     {
-        tiempoInicialA = 10;
+        tiempoInicialA =   100;
         tiempo = tiempoInicialA;
     }
 
