@@ -98,7 +98,6 @@ MonoBehaviour:
   isPlayer: 0
   movesAvailable:
   - Slash
-  - Plasma
   charName: Gato
   currentHp: 100
   maxHP: 200

@@ -99,7 +99,7 @@ MonoBehaviour:
   movesAvailable:
   - Slash
   - Plasma
-  charName: Verde
+  charName: Golem
   currentHp: 300
   maxHP: 400
   currentMp: 0
