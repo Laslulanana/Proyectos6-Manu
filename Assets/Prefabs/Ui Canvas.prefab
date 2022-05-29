@@ -52672,6 +52672,7 @@ GameObject:
   - component: {fileID: 8081366592593311011}
   - component: {fileID: 5158393505565124504}
   - component: {fileID: 6396310341710542539}
+  - component: {fileID: 7721732001041803644}
   m_Layer: 5
   m_Name: EscudoTiempo
   m_TagString: Untagged
@@ -52736,6 +52737,21 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &7721732001041803644
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3645035600175097781}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee9a3b8bd1b7f7547bf47efadf683b1d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  espada: 0
+  escudo: 1
+  botas: 0
 --- !u!1 &4004444142999186515
 GameObject:
   m_ObjectHideFlags: 0
@@ -53444,6 +53460,7 @@ GameObject:
   - component: {fileID: 9097809457053178841}
   - component: {fileID: 9137347368009623675}
   - component: {fileID: 750812954455488544}
+  - component: {fileID: 8653755483884309688}
   m_Layer: 5
   m_Name: EspadaTiempo
   m_TagString: Untagged
@@ -53508,6 +53525,21 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &8653755483884309688
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8662652832101701099}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee9a3b8bd1b7f7547bf47efadf683b1d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  espada: 1
+  escudo: 0
+  botas: 0
 --- !u!1 &8894650523366487282
 GameObject:
   m_ObjectHideFlags: 0
@@ -53519,6 +53551,7 @@ GameObject:
   - component: {fileID: 8867118809378678648}
   - component: {fileID: 4941919032247841449}
   - component: {fileID: 2374690907717444365}
+  - component: {fileID: 1028283350670642953}
   m_Layer: 5
   m_Name: BotasTiempo
   m_TagString: Untagged
@@ -53583,3 +53616,18 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &1028283350670642953
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8894650523366487282}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee9a3b8bd1b7f7547bf47efadf683b1d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  espada: 0
+  escudo: 0
+  botas: 1
