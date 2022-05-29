@@ -37,7 +37,7 @@ public class Teletransporte : MonoBehaviour
         if (collision.CompareTag("Player"))
         {
             esperar = false;
-            tiempoEspera = 2;
+            tiempoEspera = 1;
         }
     }
 
