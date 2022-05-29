@@ -5,6 +5,7 @@ using UnityEngine;
 public class interactuarNPCMision : MonoBehaviour
 {
     public GameObject Enemigo;
+    public GameObject exclamation;
     // Start is called before the first frame update
     void Start()
     {
@@ -17,6 +18,7 @@ public class interactuarNPCMision : MonoBehaviour
             if(Input.GetKeyDown(KeyCode.E))
             {
                 Enemigo.SetActive(true);
+                exclamation.SetActive(false);
             }
         }
     }
