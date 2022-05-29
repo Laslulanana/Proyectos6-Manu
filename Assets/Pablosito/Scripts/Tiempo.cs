@@ -22,9 +22,6 @@ public class Tiempo : MonoBehaviour
 
     private void Awake()
     {
-        espada = GameObject.Find("EspadaTiempo");
-        escudo = GameObject.Find("EscudoTiempo");
-        botas = GameObject.Find("BotasTiempo");
         tiempoInicialA = tiempoI;
         if (espadaTiempo)
         {
@@ -44,7 +41,9 @@ public class Tiempo : MonoBehaviour
 
     void Update()
     {
-        
+        espada = GameObject.Find("EspadaTiempo");
+        escudo = GameObject.Find("EscudoTiempo");
+        botas = GameObject.Find("BotasTiempo");
         tiempoI = tiempo;
         tiempo -= Time.deltaTime;
         
