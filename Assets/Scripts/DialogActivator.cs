@@ -12,13 +12,7 @@ public class DialogActivator : MonoBehaviour
     public string questToMark;
     public bool markComplete;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
+   
     void Update()
     {
         if(canActivate && Input.GetKeyDown(KeyCode.E) && !DialogManager.instance.dialogBox.activeInHierarchy)
