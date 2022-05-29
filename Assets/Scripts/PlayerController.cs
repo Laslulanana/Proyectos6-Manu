@@ -5,6 +5,7 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     public Rigidbody2D theRB;
+    public static bool isMoving;
     public float moveSpeed;
     public Animator myAnim;
     public static PlayerController instance;
@@ -29,6 +30,14 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (theRB.velocity==Vector2.zero)
+        {
+            isMoving = false;
+        }
+        else
+        {
+            isMoving = true;
+        }
         if(canMove){
             theRB.velocity = new Vector2(Input.GetAxis("Horizontal"),Input.GetAxis("Vertical")) * moveSpeed;
         }else
