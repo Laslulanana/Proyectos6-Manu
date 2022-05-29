@@ -16,15 +16,35 @@ public class Tiempo : MonoBehaviour
     public static bool escudoTiempo;
     public static bool botasTiempo;
 
+    public GameObject espada;
+    public GameObject escudo;
+    public GameObject botas;
+
     private void Awake()
     {
-        tiempoInicialA =   100;
+        espada = GameObject.Find("EspadaTiempo");
+        escudo = GameObject.Find("EscudoTiempo");
+        botas = GameObject.Find("BotasTiempo");
+        tiempoInicialA = tiempoI;
+        if (espadaTiempo)
+        {
+            tiempoInicialA += 60;
+        }
+        if (escudoTiempo)
+        {
+            tiempoInicialA += 60;
+        }
+        if (botasTiempo)
+        {
+            tiempoInicialA += 60;
+        }
+        
         tiempo = tiempoInicialA;
     }
 
     void Update()
     {
-
+        
         tiempoI = tiempo;
         tiempo -= Time.deltaTime;
         
@@ -35,6 +55,20 @@ public class Tiempo : MonoBehaviour
         }
 
         DisplayTime(tiempo);
+
+        if (espadaTiempo)
+        {
+            espada.SetActive(false);
+        }
+        if (escudoTiempo)
+        {
+            escudo.SetActive(false);
+        }
+        if (botasTiempo)
+        {
+            botas.SetActive(false);
+        }
+
     }
 
     void DisplayTime(float timeToDisplay)
