@@ -1,13 +1,13 @@
 fileFormatVersion: 2
-guid: d3754f0b3e5fb4f4daae91b5d0f308cf
+guid: f83aa14cd235dbd46bdc254e1ded358b
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5311313197122370693
-    second: NPC_4
+      213: -7343248500661804870
+    second: Doctor_1_idle_16x16_0
   - first:
-      213: 7884552903580140644
-    second: Premade_Character_09_1
+      213: -4552713013534427618
+    second: Doctor_1_idle_16x16_1
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -97,33 +97,12 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: NPC_4
+      name: Doctor_1_idle_16x16_0
       rect:
         serializedVersion: 2
-        x: 48
-        y: 624
-        width: 16
-        height: 24
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 58cb255563395b940800000000000000
-      internalID: 5311313197122370693
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Premade_Character_09_1
-      rect:
-        serializedVersion: 2
-        x: 241
-        y: 592
-        width: 13
+        x: 0
+        y: 0
+        width: 15
         height: 25
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -132,8 +111,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4644ba6771f8b6d60800000000000000
-      internalID: 7884552903580140644
+      spriteID: ab022a4156a871a90800000000000000
+      internalID: -7343248500661804870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doctor_1_idle_16x16_1
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 0
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e167bffa2a381d0c0800000000000000
+      internalID: -4552713013534427618
       vertices: []
       indices: 
       edges: []

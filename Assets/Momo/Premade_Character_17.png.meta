@@ -5,6 +5,9 @@ TextureImporter:
   - first:
       213: 8587325110074014063
     second: NPC_1
+  - first:
+      213: 2184445840330149373
+    second: NPC
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -110,6 +113,27 @@ TextureImporter:
       bones: []
       spriteID: f69f0c4a0be4c2770800000000000000
       internalID: 8587325110074014063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 497
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfd45f70be5b05e10800000000000000
+      internalID: 2184445840330149373
       vertices: []
       indices: 
       edges: []
