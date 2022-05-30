@@ -13,13 +13,24 @@ public class interactuarNPCMision : MonoBehaviour
     }
     private void OnTriggerStay2D(Collider2D collision)
     {
+        
         if (collision.CompareTag("Player"))
         {
-            if(Input.GetKeyDown(KeyCode.E))
+            
+            if (Input.GetKeyDown(KeyCode.E))
             {
+                
                 Enemigo.SetActive(true);
                 exclamation.SetActive(false);
             }
+        }
+    }
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Player"))
+        {
+            Enemigo.SetActive(true);
+            exclamation.SetActive(false);
         }
     }
 }
