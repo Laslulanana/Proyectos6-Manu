@@ -102,7 +102,8 @@ MonoBehaviour:
   itemName: Mana & Health Potion
   description: Restores 100 HP & MP
   value: 25
-  itemSprite: {fileID: 0}
+  itemSprite: {fileID: -7573354855677281409, guid: 0bc4ed27aef38a44bb72e80f9beb5326,
+    type: 3}
   amountToChange: 200
   affectHp: 1
   affectMp: 1
