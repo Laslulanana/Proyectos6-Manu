@@ -102,7 +102,8 @@ MonoBehaviour:
   itemName: Iron Helmet
   description: Heavy Helmet
   value: 20
-  itemSprite: {fileID: 0}
+  itemSprite: {fileID: 4639506938558671751, guid: 0bc4ed27aef38a44bb72e80f9beb5326,
+    type: 3}
   amountToChange: 40
   affectHp: 0
   affectMp: 0

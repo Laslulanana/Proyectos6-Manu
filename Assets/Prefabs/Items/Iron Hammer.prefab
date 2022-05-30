@@ -102,7 +102,8 @@ MonoBehaviour:
   itemName: Iron Hammer
   description: "Heavy and destructive\xA1"
   value: 50
-  itemSprite: {fileID: 0}
+  itemSprite: {fileID: -4068327758537392850, guid: 0bc4ed27aef38a44bb72e80f9beb5326,
+    type: 3}
   amountToChange: 100
   affectHp: 0
   affectMp: 0
