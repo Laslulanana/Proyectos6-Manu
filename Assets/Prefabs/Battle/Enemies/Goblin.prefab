@@ -46,6 +46,8 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -102,10 +104,10 @@ MonoBehaviour:
   maxHP: 250
   currentMp: 0
   maxMP: 0
-  strength: 5
-  defence: 5
-  wpnPower: 5
-  armrPower: 5
+  strength: 2
+  defence: 4
+  wpnPower: 3
+  armrPower: 4
   hasDied: 0
   theSprite: {fileID: 7398462713620269413}
   deadSprite: {fileID: 0}

@@ -53370,6 +53370,16 @@ MonoBehaviour:
   rewardItems:
   - Wooden Sword
   - Health Potion
+  - Cherry
+  - Mana Potion
+  - Iron Armor
+  - Iron Axe
+  - Iron Hammer
+  - Iron Helmet
+  - Iron Sword
+  - Leather Amor
+  - Leather Helmet
+  - Mana & Health Potion
   xpEarned: 200
   rewardT: 0
   markQuestComplete: 0
