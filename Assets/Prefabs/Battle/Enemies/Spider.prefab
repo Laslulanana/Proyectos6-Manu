@@ -46,6 +46,8 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -98,13 +100,13 @@ MonoBehaviour:
   - Slash
   - Plasma
   charName: Spider
-  currentHp: 140
-  maxHP: 220
+  currentHp: 250
+  maxHP: 250
   currentMp: 0
   maxMP: 0
-  strength: 4
+  strength: 2
   defence: 3
-  wpnPower: 5
+  wpnPower: 4
   armrPower: 2
   hasDied: 0
   theSprite: {fileID: 8851206170071235873}
